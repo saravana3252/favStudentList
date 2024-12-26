@@ -25,7 +25,7 @@ function FavStudentList(props) {
                     );
                 })
             ) : (
-                <div className="w-full pt-60 font-bold flex justify-center items-center text-3xl text-white">
+                <div className="w-full pt-60 font-bold flex justify-center items-center lg:text-6xl text-3xl text-white">
                     Add Favourite Students
                 </div>
             )}

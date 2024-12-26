@@ -15,7 +15,7 @@ function FavStudent(data){
   setFavStudent((prevData)=>{
     return [...prevData,data]
   })
-  toast.success("added to favourites",{
+  toast.success(`${data} added to favourites`,{
     position:"bottom-left",
     autoClose:3000
   })
@@ -27,7 +27,7 @@ function RemoveStudent(index){
     updatedfavStudent.splice(index,1);
     return updatedfavStudent;
   })
-  toast.info("removed favourite student",{
+  toast.info(`${favStudent[index]} removed favourite student`,{
     position:"bottom-left",
     autoClose:3000
   })
