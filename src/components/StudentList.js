@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 function StudentList(props) {
-    const [data, setData] = useState(["saravana", "ajith kumar", "suriya", "vijay"]);
+    const [data, setData] = useState(["saravana", "ajith", "suriya", "vijay"]);
 
     return (
-        <div className="p-6 bg-red-100 rounded-lg max-w-lg mx-auto lg:mt-10 mt-0">
+        <div className="p-6 bg-blue-200 rounded-lg max-w-lg  lg:mt-10 mx-5 mt-12">
             {data.map((student, index) => {
                 return (
                     <div key={index} className="flex justify-between items-center p-4 mb-4 bg-white border border-gray-300 rounded-lg">

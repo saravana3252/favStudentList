@@ -4,7 +4,7 @@ function FavStudentList(props) {
             {props.FavStudentList.length > 0 ? (
                 props.FavStudentList.map((student, index) => {
                     return (
-                        <div key={index} className="flex justify-between items-center py-3 px-5 mb-4 bg-white border border-gray-300 rounded-lg">
+                        <div key={index} className="flex justify-between items-center py-3 px-5 mb-4 bg-white border border-gray-300 rounded-lg mt-4 mx-2">
                             <div className="flex text-xl">
                                 <p className="mr-2">{index + 1}.</p>
                                 <p>{student}</p>
@@ -23,7 +23,7 @@ function FavStudentList(props) {
                     );
                 })
             ) : (
-                <div className="w-full pt-60 font-bold flex justify-center items-center text-3xl">
+                <div className="w-full pt-60 font-bold flex justify-center items-center text-3xl text-white">
                     Add Favourite Students
                 </div>
             )}
