@@ -37,7 +37,7 @@ function RemoveStudent(index){
     <div >
        <ToastContainer />
       <BrowserRouter>
-      <Header></Header>
+      <Header favStudentLenght={favStudent.length}></Header>
       <Routes>
     <Route path="/" element={<StudentList favStudent={FavStudent} favStudentData={favStudent}></StudentList>}></Route> 
     <Route path="/favStudent" element={ <FavStudentList FavStudentList={favStudent} RemoveStudent={RemoveStudent}></FavStudentList>}></Route> 
