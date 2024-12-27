@@ -5,7 +5,7 @@ function FavStudentList(props) {
                 props.FavStudentList.map((student, index) => {
                     return (
                         <div className="flex md:justify-center ">
-                        <div key={index} className="flex justify-between items-center py-3 px-5 mb-4 bg-white border border-gray-300 rounded-lg mt-4 mx-2 w-full md:w-1/2">
+                        <div key={index} className="flex justify-between items-center shadow-2xl py-3 px-5 mb-4 bg-white border border-gray-300 rounded-lg mt-4 mx-2 w-full md:w-1/2">
                             <div className="flex text-xl">
                                 <p className="mr-2">{index + 1}.</p>
                                 <p>{student}</p>

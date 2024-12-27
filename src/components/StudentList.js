@@ -4,7 +4,7 @@ function StudentList(props) {
     const [data, setData] = useState(["saravana", "ajith", "suriya", "vijay"]);
 
     return (
-        <div className="p-6 lg:bg-blue-200 rounded-lg max-w-lg mx-auto lg:mt-10 mt-2 space-y-4">
+        <div className="p-6 shadow-2xl lg:bg-[rgb(0,143,169)] rounded-lg max-w-lg mx-auto lg:mt-10 mt-2 space-y-4">
             {data.map((student, index) => {
                 return (
                     <div
