@@ -27,7 +27,7 @@ function RemoveStudent(index){
     updatedfavStudent.splice(index,1);
     return updatedfavStudent;
   })
-  toast.info(`${favStudent[index]} removed favourite student`,{
+  toast.info(`${favStudent[index]} removed from favourites`,{
     position:"bottom-left",
     autoClose:3000
   })
