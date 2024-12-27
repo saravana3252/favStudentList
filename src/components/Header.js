@@ -8,9 +8,15 @@ function Header(props){
       <div className="bg-white  flex items-center justify-center py-2 rounded-md">
   <div className="font-bold text-lg lg:text-2xl flex items-center px-3 ">
     <Link to="/favStudent" className="text-black ">Favourites</Link>
-    <p className="bg-white rounded-full text-black ml-1.5 ">
-      {props.favStudentLenght}
+    {props.FavStudentList.length > 0 ?(
+    <p id="favStudentListLen" className="bg-white rounded-full text-black ml-1.5 ">
+        
+      {props.favStudentLength}
     </p>
+    ):(
+        null
+    )
+}
   </div>
 </div>
 
