@@ -9,7 +9,7 @@ function Header(props){
   <div className="font-bold text-lg lg:text-2xl flex items-center px-3 ">
     <Link to="/favStudent" className="text-black ">Favourites</Link>
     {props.FavStudentList.length > 0 ?(
-    <p id="favStudentListLen" className="bg-white rounded-full text-black ml-1.5 ">
+    <p id="favStudentListLen" className="rounded-md text-white ml-1.5 bg-black px-2">
         
       {props.favStudentLength}
     </p>
