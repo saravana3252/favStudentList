@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function StudentList(props) {
-    const [data, setData] = useState(["saravana", "ajith", "suriya", "vijay"]);
+    const [data, setData] = useState(["saravana", "sam", "john", "vijay"]);
 
     return (
         <div className="p-6  lg:shadow-2xl lg:bg-[rgb(0,143,169)] rounded-lg max-w-lg mx-auto lg:mt-10 mt-2 space-y-4">
